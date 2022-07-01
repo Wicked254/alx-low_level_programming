@@ -1,12 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - main block
- * Description: prints "is it positive or negative"
- * Return: 0
- */
+nclude <stdio.h>
 
+#include <stdlib.h>
+
+#include <time.h>
+
+/**
+ 
+   * main - main block
+ 
+    * Description: prints "is it positive or negative"
+ 
+     * Return: 0
+ 
+ */
 int main(void)
 
 {
