@@ -2,7 +2,7 @@
 #include <stdlib.>
 /**
  * main - main block
- * Description: Use `purchar` to print all lowercase without q and e
+ * Description: Use `purchar` to print all lowercas without the letters q and e
  * Return: 0
  */
 int main(void)
