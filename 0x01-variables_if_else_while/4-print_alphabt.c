@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: Use `purchar` to print all lowercas without the letters q and e
