@@ -13,7 +13,8 @@ void print_triangle(int size)
 		_putchar('\n');
 		return;
 	}
-	i = 0
+	i = 0;
+
 	spaceX = size - 1;
 	while (i < size)
 	{
