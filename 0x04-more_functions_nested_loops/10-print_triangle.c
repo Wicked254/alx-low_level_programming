@@ -1,28 +1,20 @@
 #include "main.h"
 /**
- * print_triangle - check for a digit
- * @size: integer(size x size) type
- * Return: void
+ * print_triangle - prints a triangle
+ * @size: takes in a integer for size of triangle
  */
 void print_triangle(int size)
 {
-	int i, n, spaceX;
+	int row, column, k;
 
-	if (size < 1)
-	{
+	if (size <= 0)
 		_putchar('\n');
-		return;
-	}
-	i = 0;
-
-	spaceX = size - 1;
-	while (i < size)
+	for (row = 0; row < size; row++)
 	{
-		n = 0;
-		while (n < size)
-			_putchar((n++ < spaceX) ? ' ' : '#');
-			_putchar('\n');
-			spaceX--;
-			i++;
+		for (column = size - row; column > 1; column--)
+			_putchar(' ');
+		for (k = row + column; k >= 1; k--)
+			_putchar('#');
+		_putchar('\n');
 	}
 }
